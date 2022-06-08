@@ -1,0 +1,12 @@
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #EBEDEC;
+}
+
+.header2 .iconic{
+    padding-top: 13px;
+}
+
+

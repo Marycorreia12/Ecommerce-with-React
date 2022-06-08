@@ -3,9 +3,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 0px;
     gap: 29px;
-    list-style: none;
+    list-style: none; 
 }
 
 .nav-items a{
@@ -16,4 +15,18 @@
     font-size: 14px;
     line-height: 16px;
     color: #65696C;
+    position: relative;
+    padding-top: 40px;
+}
+
+.nav-items a:hover::before{
+    position: absolute;
+    content: '';
+    width: 32px;
+    height: 0px;
+    left: 1px;
+    top: 0px;
+    border: 1px solid #8DC63F;
+    background-color: #8DC63F;
+    transition: all 5s ease-in-out;
 }
