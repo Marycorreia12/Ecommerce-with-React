@@ -1,0 +1,25 @@
+.textarea{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border: 1px solid #BABABA;
+    background: none;
+    width: 100%;
+    border-radius: 6px;
+    padding-top: 1.875em;
+    padding-left: 0.938em;
+    line-height: 1.188rem;
+    color: #9CA9BE;
+    opacity: 0.7;
+    margin-bottom: 1.25rem;
+
+}
+
+.textarea:focus,
+.textarea:hover {
+  outline: none;
+  border-color: var(--primary-color);
+  background: white;
+  box-shadow: 0 0 0 1px var(--primary-color);
+}

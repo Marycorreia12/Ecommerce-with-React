@@ -1,0 +1,33 @@
+.content{
+    background: #FFFFFF;
+    box-shadow: 0px -1px 8px rgba(80, 80, 80, 0.25);
+    flex: 1;   
+    min-height: 7.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.375em 3.125em;
+    cursor: pointer;
+}
+
+.line{
+    width: 0;
+    height: 3.5rem;
+    border: 1px solid #EBEDEC;
+    background: #EBEDEC;
+}
+
+.content_image p{
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: var(--secondary-color);
+    margin-top: 0.625rem;
+}
+
+.content_text p{
+    line-height: 1.18rem;
+    margin-bottom: 0.31rem;
+}

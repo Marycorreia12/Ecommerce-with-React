@@ -1,15 +1,15 @@
 import React from 'react'
-import './contactCard.css'
+import styles from './ContactCard.module.css'
 
 const ContactCard = ({img, title, text1, text2}) => {
   return (
-    <article className='contact-card'>
-        <div className='contact-card-image'>
+    <article className={styles.content}>
+        <div className={styles.content_image}>
             <img src={img} alt="ImageContact" />
             <p>{title}</p>
         </div>
-        <div className='line'></div>
-        <div className='contact-card-text'>
+        <div className={styles.line}></div>
+        <div className={styles.content_text}>
             <p>{text1}</p>
             <p>{text2}</p>
         </div>

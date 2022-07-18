@@ -1,0 +1,38 @@
+.wrapper {
+    margin-bottom: 1rem;
+  } 
+
+.input, input[type="email"]{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    border: 1px solid #BABABA;
+    background: none;
+    padding: 1.563em 0 1.563em 0.938em;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: var(--primary-color);
+  background: white;
+  box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+}
+
+.error {
+  color: #f31;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  text-align: start;
+}

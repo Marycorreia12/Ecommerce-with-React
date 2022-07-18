@@ -1,0 +1,14 @@
+.home-bg{
+    background: #FAFAFA;
+    min-height: 100vh;
+    padding-top: 6em;
+}
+
+.flex-column{
+    align-items: center;
+    margin: 3.5rem 0;
+}
+
+.sponsorship-flex{
+    display: flex;
+}

@@ -1,0 +1,9 @@
+.advantages_images{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+}
+
+.advantages_cards{
+    margin: 7rem 0 5rem 0;
+}

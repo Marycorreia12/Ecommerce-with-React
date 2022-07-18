@@ -6,12 +6,12 @@ import Navbar from '../Navbar/Navbar';
 
 const Header2 = () => {
   return (
-    <div className='header2'>
+    <section className='header2'>
         <Link to='/' className='iconic'>
           <Iconic />
         </Link>
         <Navbar />
-    </div>
+    </section>
   )
 }
 

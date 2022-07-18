@@ -1,14 +1,12 @@
 import React from 'react'
-import Titulo from '../../components/Titulo/Titulo'
-import Header from '../../components/Header/Header'
+import HeaderTitle from '../../components/HeaderTitle/HeaderTitle'
+import Head from '../../components/Head/Head'
 
 const Shops = () => {
   return (
     <>
-      <Header />
-      <section>
-        <Titulo texto = 'SHOPS' cor='#FFD910'/>
-      </section>
+     <Head title="Shops" description="Essa é a descrição da Shops" />
+      <HeaderTitle texto = 'SHOPS'/>
     </>
   )
 }

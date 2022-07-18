@@ -1,0 +1,99 @@
+.background{
+    background-image: url('../../images/hyper-bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hyper_container{
+    padding: 3.75em 0 5em 0;
+    position: relative;
+}
+
+.hyper_container::before{
+    content: url('../../images/effect-section-banner.svg');
+    position: absolute;
+    top: 5rem;
+    left: 0;
+}
+
+.hyper_container::after{
+    content: url('../../images/bike-banner.svg');
+    position: absolute;
+    top: 0.625rem;
+    left: 0;
+}
+
+.text{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: var(--white-color);
+    opacity: 0.7;
+    max-width: 28rem;
+    margin: auto;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.price strong{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: var(--primary-color);
+    margin: 0.938rem 0;
+    font-family: 'Teko';
+}
+
+.price small{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.688rem;
+    text-decoration-line: line-through;
+    color: var(--white-color);
+    opacity: 0.7;
+    font-family: 'Teko';
+}
+
+.promotions_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.313em 0.938em 0.375em 1em;
+    color: var(--white-color);
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 18.75rem;
+    margin: 0 auto;
+}
+
+.promotions_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotions_items strong{
+    font-size: 1.563rem;
+    line-height: 2.5rem;
+    color: var(--white-color);
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: -0.4rem;
+    position: relative;
+}
+
+.promotions_items small{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: var(--primary-color);
+}

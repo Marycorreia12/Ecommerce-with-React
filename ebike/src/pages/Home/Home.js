@@ -1,11 +1,17 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
+import './home.css'
+import HomeSearch from '../../components/HomeSearch/HomeSearch'
+import Hero from '../../components/Hero/Hero'
+import HomeBackground from '../../components/HomBackground/HomeBackground'
+import Head from '../../components/Head/Head'
 
 const Home = () => {
   return (
     <>
-        <Header/>
-        <h1 className='home-title'>BEST BIKES FOR YOU</h1>
+      <Head title="Best bikes for you" description="Essa é a descrição da Home" />
+      <Hero/>
+      <HomeSearch/>
+      <HomeBackground/>
     </>
   )
 }

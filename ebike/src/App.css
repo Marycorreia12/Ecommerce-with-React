@@ -1,11 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #8DC63F;
+    --secondary-color: #192330;
+    --shuttle-grey-color: #636A73;
+    --mid-grey-color: #65696C;
+    --mardi-gras-color: #2E2330;
+    --grey-chateau-color: #9CA4AB;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
 body{
     font-family: 'Roboto Condensed';
-   
+    font-style: normal;
+    scroll-behavior: smooth;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, strong{
+    font-family: 'Teko';
+    font-style: normal;
+}
+
+h3{
+    font-weight: 500;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    letter-spacing: 0.05em;
+    color: #535B65;
+    margin-bottom: 1.25em;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.56rem;
+    color: #535B65;
+}
+
+
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 1.25em;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.margin-top{
+    margin-top: 3.5rem;
+}
+
+.margin-botton{
+    margin-bottom: 5rem;
+}
+
+.animeLeft {
+    transform: translateX(-100px);
+    opacity: 0;
+    animation: animeLeft 0.2s forwards;
+  }
+  
+  @keyframes animeLeft {
+    to {
+      transform: initial;
+      opacity: initial;
+    }
+  }
+
+  
+.animeUp {
+    transform: translateY(-20px);
+    opacity: 0;
+    animation: animeUp 0.2s forwards;
+  }
+  
+  @keyframes animeUp {
+    to {
+      transform: initial;
+      opacity: initial;
+    }
+  }

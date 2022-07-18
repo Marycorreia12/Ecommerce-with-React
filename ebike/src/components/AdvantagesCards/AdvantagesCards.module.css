@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card{
+    max-width: 12.375rem;
+    margin: 0 auto;
+}
+
+.images{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.card p{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 1.688rem;
+    text-align: center;
+    
+}

@@ -1,14 +1,14 @@
 import React from 'react'
-import Titulo from '../../components/Titulo/Titulo'
-import Header from '../../components/Header/Header'
+import GalleryImages from '../../components/GalleryImages/GalleryImages'
+import HeaderTitle from '../../components/HeaderTitle/HeaderTitle'
+import Head from '../../components/Head/Head'
 
 const Gallery = () => {
   return (
     <>
-      <Header />
-      <section>
-        <Titulo texto = 'GALLERY' cor='#FFD910'/>
-      </section>
+     <Head title="Gallery" description="Essa é a descrição da Gallery" />
+      <HeaderTitle texto = 'GALLERY'/>
+      <GalleryImages/>
     </>
   )
 }

@@ -1,0 +1,8 @@
+.products_container{
+    position: relative;
+}
+
+.product_container{
+    display: flex;
+    gap: 1rem;
+}

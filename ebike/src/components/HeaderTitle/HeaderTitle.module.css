@@ -1,0 +1,26 @@
+
+.background{
+    min-height: 17rem;
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 40% 90%, 0 100%, 0% 50%);
+    margin-bottom: 2.4rem;
+}
+
+.background::before{
+    content: url('../../images/effect-bg-about.svg');
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5.75rem;
+    color: #FFD910;
+}

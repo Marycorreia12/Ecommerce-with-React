@@ -3,10 +3,11 @@
     justify-content: space-between;
     align-items: flex-end;
     border-top: 1px solid #EBEDEC;
+    margin-bottom: 3.125em;
 }
 
 .header2 .iconic{
-    padding-top: 13px;
+    padding-top: 0.81em;
 }
 
 

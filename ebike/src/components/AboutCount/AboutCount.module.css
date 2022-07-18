@@ -1,0 +1,61 @@
+.wrapper{
+    background-image: url('../../images/advantages.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content_container{
+    padding: 8em 0;
+    display: flex;
+    gap: 2.18em;
+    align-items: center;
+}
+
+.content{
+    flex: 1 0 16.375rem;
+    text-align: center;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 1.875rem;
+    line-height: 1.688rem;
+    text-align: center;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.25rem;
+    height: 0rem;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.subTitle{
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+}

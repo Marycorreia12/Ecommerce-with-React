@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+.items{
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.items:hover .content{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    position: absolute;
+    left: 25%;
+    bottom: 2.625rem;
+    z-index: 1;
+    width: 100%;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.content_items{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1.25rem;
+    line-height: 1.31rem;
+    color: #FFFFFF;
+}
+
+.content_items img{
+    width: 1.25rem;
+    height: 1.25rem;
+}

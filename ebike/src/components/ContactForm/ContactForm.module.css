@@ -1,0 +1,31 @@
+.form_container{
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.input_form_group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.375rem;
+    margin-top: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #9CA9BE;
+    opacity: 0.7;
+}
+
+input[type="checkbox"]{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #EBEDEC;
+}
+
+.checkbox_container{
+    margin-bottom: 1.875rem;
+}
+
+.p{
+    margin-top: .8rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}

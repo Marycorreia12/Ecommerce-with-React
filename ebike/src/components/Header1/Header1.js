@@ -16,9 +16,9 @@ const Header1 = () => {
           </NavLink>
         </div>
         <ul className='header1-icons'>
-          <li><a href="/"><FontAwesomeIcon icon={faUser}/></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faHeart}/></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faCartShopping}/></a></li>
+          <li><NavLink to="/login"><FontAwesomeIcon icon={faUser}/></NavLink></li>
+          <li><NavLink to="/wishlist"><FontAwesomeIcon icon={faHeart}/></NavLink></li>
+          <li><NavLink to="/cart"><FontAwesomeIcon icon={faCartShopping}/></NavLink></li>
         </ul>     
     </section>
   )

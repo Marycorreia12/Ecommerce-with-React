@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.375em;
+    margin: 1.563rem 0 1.25rem 0;
+}
+
+.cards{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 1 0 33%;
+   background: #fff;
+   padding: 2.125em 1.75em 1.563em 1.75em;
+}
+
+.info{
+    display: flex;
+    gap: 0.938rem;
+    margin-top: 1.118rem;
+    margin-bottom: 1.563rem;
+}
+
+.avatar{
+    width: 3.75rem;
+    height: 3.75rem; 
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.625rem;
+}

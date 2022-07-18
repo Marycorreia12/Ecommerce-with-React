@@ -1,15 +1,12 @@
 import React from 'react'
-import Titulo from '../../components/Titulo/Titulo'
-import Header from '../../components/Header/Header'
+import Head from '../../components/Head/Head'
 
 const News = () => {
   return (
-    <>
-      <Header />
-      <section>
-       <Titulo texto = 'NEWS' cor='#FFD910'/>
-      </section>
- </>
+    <div>
+       <Head title="News" description="Essa é a descrição da News" />
+      
+    </div>
   )
 }
 
