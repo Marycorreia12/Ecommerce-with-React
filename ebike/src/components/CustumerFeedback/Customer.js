@@ -4,6 +4,7 @@ import SubTitle from '../SubTitle/SubTitle'
 import styles from './Customer.module.css'
 
 const Customer = () => {
+
   return (
     <section className={styles.wrapper}>
         <div className='container'>

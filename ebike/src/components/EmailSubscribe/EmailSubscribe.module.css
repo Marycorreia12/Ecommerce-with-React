@@ -1,9 +1,12 @@
-.input-group{
+.input_group{
     display: flex;
     align-items: center;
-    margin-top: 1.875em;
+    margin-top: 1.875rem;
 }
 
+.inp[type="email"]{
+    border-radius: 6px 0px 0px 6px;
+}
 
 .btn{
     background: var(--primary-color);
@@ -15,7 +18,7 @@
     line-height: 2.125rem;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding: 0.575em 1.3em;
+    padding: 0.55em 1.3em;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 0px 6px 6px 0px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './emailSubscribe.css'
+import styles from './EmailSubscribe.module.css'
 
 const EmailSubscribe = () => {
     const [email, setEmail] = React.useState('');
@@ -41,11 +41,11 @@ const EmailSubscribe = () => {
   }
   return (
     <>
-     <form onSubmit={handleSubmit}className='input-group'>
-        <input type="email" name={email} id="email" placeholder='Enter email' className='inp'
+     <form onSubmit={handleSubmit} className={styles.input_group}>
+        <input type="email" name={email} id="email" placeholder='Enter email' className={styles.inp}
         onChange={handleChange}
         onBlur={handleBlur}/>
-        <button className='btn' type='submit'>Send</button>
+        <button className={styles.btn} type='submit'>Send</button>
     </form>
     {error && <p style={{color: 'red'}}>{error}</p>}
    </>

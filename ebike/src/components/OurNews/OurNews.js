@@ -9,7 +9,7 @@ const OurNews = () => {
           <div className="flex-column">
             <SubTitle texto='OUR NEWS' textAline='center'/>
             <NewsCard/>
-            <Button texto='VIEW MORE' padding='0.813em 1.563em' className='btn'/>
+            <Button texto='VIEW MORE' padding='0.813em 1.563em'/>
           </div> 
         </div> 
   )

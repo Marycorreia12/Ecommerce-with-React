@@ -1,3 +1,13 @@
+.wrapper{
+    margin: 5rem auto 1rem auto;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+
 .faArrow{
     border: 1px solid #7D9C37;
     border-radius: 0.375em;
@@ -17,12 +27,3 @@
     right: -5rem;
    }
 
-.pro_container{
-    position: relative;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.wrapper{
-    margin: 5rem auto 1rem auto;
-}

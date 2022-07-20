@@ -29,26 +29,27 @@ const [error, setError] = React.useState("")
       }, [])
     
   return (
-    <article className={styles.container}>
+    <section className={styles.container}>
         {error && <p style={{color: '#f00', fontSize: '2rem'}}>{error}</p>}
         {users.map(user => (
-            <>              
-            {user.comments.length > 0 && (
-            <div className={styles.cards}>
-                 <p>{user.comments.map(comment =>
-                     comment.text)}</p>
-                 <div className={styles.info}>
-                     <img src={user.avatar} alt="Avatar" className={styles.avatar}/>
-                     <span>
-                         <p className={styles.name}>{user.name}</p>
-                         <Star/>
-                     </span>
-                 </div>
-             </div>
-            )}
+            <>      
+                {user.comments.length > 0 && (
+                  <div className={styles.cards}>
+                      <p>{user.comments.map(comment =>
+                          comment.text)}</p>
+                      <div className={styles.info}>
+                          <img src={user.avatar} alt="Avatar" className={styles.avatar}/>
+                          <span>
+                              <p className={styles.name}>{user.name}</p>
+                              <Star/>
+                          </span>
+                      </div>
+                  </div>
+              )}
             </>
         ))}
-    </article>
+    </section>
+    
   )
 }
 

@@ -6,23 +6,11 @@ import ContactForm from '../../components/ContactForm/ContactForm'
 import Customer from '../../components/CustumerFeedback/Customer'
 import SubTitle from '../../components/SubTitle/SubTitle'
 import Product from '../../components/Products/Product'
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import styles from './Services.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Head from '../../components/Head/Head'
 
 const Services = () => {
   const carossel = React.useRef(null);
-
-  function slidePrev(e){
-    e.preventDefault();
-    carossel.current.scrollLeft -=  carossel.current.offsetWidth;
-  }
-
-  function slideNext(e){
-    e.preventDefault();
-    carossel.current.scrollLeft +=  carossel.current.offsetWidth;
-  }
 
   return (
     <>
@@ -33,10 +21,11 @@ const Services = () => {
       <section className={styles.wrapper}>
         <div className="container">
             <SubTitle texto='NEW PRODUCTS'/>
-            <div className={styles.pro_container}>
+            <div className={styles.content}>
                <Product background='none' contentRef={carossel}/>
-               <FontAwesomeIcon onClick={slidePrev} icon={faAngleLeft} className={`${styles.faArrow} ${styles.faArrow_left}`}/>
-               <FontAwesomeIcon onClick={slideNext}  icon={faAngleRight} className={`${styles.faArrow} ${styles.faArrow_right}`}/>
+               <Product background='none' contentRef={carossel}/>
+               <Product background='none' contentRef={carossel}/>
+               <Product background='none' contentRef={carossel}/>
             </div>
         </div>
       </section> 

@@ -17,36 +17,36 @@ const Product = ({discount, background, contentRef}) => {
       },
     ]
   return (
-    <section className={styles.container} ref={contentRef}>
+    <section className={styles.box_container} ref={contentRef}>
             {products.map(product => (
-            <article className={styles.content}>
-            <div className={styles.image}>
-                <div className={styles.items}>
-                    <span className={styles.sale} style={{background: background}}>{discount}</span>
-                    <span className={styles.icons}>
-                        <img src={circle} alt='Circle'/>
-                        <img src={heart} alt='Heart'/>
-                    </span>
-                </div>
-                <div  className={styles.product_bike}>
-                  <img src={product.image} alt="Bike"/>
-                </div>
-            </div>
-            <div className={styles.product_info}>
-                <strong className={styles.product_price}>{product.price}</strong>
-                <p className={styles.product_description} onClick={() => setModal(!modal)}>{product.description}</p>
-                <Button texto='BUY NOW' padding='0.563em 1.063em'/>               
-            </div>
-            {modal ? 
-                <div className={styles.product_info_content}>
-                  <p>{'Frame Size: 17'}</p>
-                  <p>{'Class: City'}</p>
-                  <p>{'Number of speeds: 7'}</p>
-                  <p>{'Type: Rigid'}</p>
-                  <p>{'Country registration: USA'}</p>
+            <article className={styles.box_pcontent}>
+              <div className={styles.image}>
+                  <div className={styles.items}>
+                      <span className={styles.sale} style={{background: background}}>{discount}</span>
+                      <span className={styles.icons}>
+                          <img src={circle} alt='Circle'/>
+                          <img src={heart} alt='Heart'/>
+                      </span>
+                  </div>
+                  <div  className={styles.product_bike}>
+                    <img src={product.image} alt="Bike"/>
+                  </div>
               </div>
-               : null
-            }
+              <div className={styles.product_info}>
+                  <strong className={styles.product_price}>{product.price}</strong>
+                  <p className={styles.product_description} onClick={() => setModal(!modal)}>{product.description}</p>
+                  <Button texto='BUY NOW' padding='0.563em 1.063em'/>               
+              </div>
+              {modal ? 
+                  <div className={styles.product_info_content}>
+                    <p>{'Frame Size: 17'}</p>
+                    <p>{'Class: City'}</p>
+                    <p>{'Number of speeds: 7'}</p>
+                    <p>{'Type: Rigid'}</p>
+                    <p>{'Country registration: USA'}</p>
+                </div>
+                : null
+              }
             </article>
 
             ))}
