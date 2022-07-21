@@ -7,8 +7,6 @@ import News from "./pages/News/News";
 import Contact from "./pages/Contact/Contact";
 import './App.css';
 import initFontAwesome from "./initFontAwesome";
-
-
 import {
   BrowserRouter,
   Routes,

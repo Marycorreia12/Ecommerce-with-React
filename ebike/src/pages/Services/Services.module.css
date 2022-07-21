@@ -1,29 +1,2 @@
-.wrapper{
-    margin: 5rem auto 1rem auto;
-}
 
-.content{
-    position: relative;
-    display: flex;
-    gap: 1rem;
-}
-
-.faArrow{
-    border: 1px solid #7D9C37;
-    border-radius: 0.375em;
-    width: 1.25rem;
-    height: 1.25rem;
-    padding: 1em;
-    cursor: pointer;
-    position: absolute;
-    top: 18rem;
-}
-
-.faArrow_left{
- left: -5rem;
-}
-
-.faArrow_right{
-    right: -5rem;
-   }
 

@@ -5,8 +5,8 @@ import styles from './OurProducts.module.css'
 
 const OurProducts = () => {
   return (
-    <div className="container">
-          <div className="margin-top">
+    <div className={styles.wrapper}>
+          <div className='container'>
             <SubTitle texto='OUR PRODUCTS'/>
             <div className={styles.products_container}>
                 <Product discount='12%' />

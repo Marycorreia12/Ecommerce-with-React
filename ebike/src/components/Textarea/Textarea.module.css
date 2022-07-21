@@ -23,3 +23,10 @@
   background: white;
   box-shadow: 0 0 0 1px var(--primary-color);
 }
+
+.error {
+  color: #f31;
+  font-size: 0.875rem;
+  margin-top: -1rem;
+  text-align: start;
+}

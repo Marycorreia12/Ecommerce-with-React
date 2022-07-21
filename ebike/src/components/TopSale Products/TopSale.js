@@ -6,7 +6,7 @@ import styles from './TopSale.module.css'
 const TopSale = () => {
   const carossel = React.useRef(null);
   return (
-        <div className='margin-top'>
+        <div className={styles.wrapper}>
             <div className='container'>
                 <SubTitle texto='TOP SALE'/>
                 <div className={styles.content}>
