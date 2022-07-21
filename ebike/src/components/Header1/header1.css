@@ -50,8 +50,8 @@
 .header1-icons li::after{
     content: '';
     position: absolute;
-    border: 1px solid #EBEDEC;
-    background-color: #EBEDEC;
+    border: 1px solid var(--border-color);
+    background-color: var(--border-color);
     width: 1.3rem;
     height: 0;
     top: 50%;

@@ -36,7 +36,7 @@ const Contact = () => {
         </div> 
         <ContactForm/>
     </section> 
-    <img src={Map} alt="MAP" style={{marginBottom: '2em'}}/>
+    <img src={Map} alt="MAP" />
   </>
   )
 }

@@ -1,0 +1,21 @@
+.wrapper{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.info{
+    margin: 2rem 0 3rem 0;
+    font-size: 1.125rem;
+}
+
+.title{
+    padding-bottom: 5rem;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.25rem;
+}
+
+.link{
+    color: #f31;
+}

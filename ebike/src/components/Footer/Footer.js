@@ -55,19 +55,19 @@ const Footer = () => {
                     <h4>SHOP</h4>
                     <ul className='nav-content'>
                         <li className='nav-items-f'>
-                        <Link to="/about">Road Bike</Link>
+                        <Link to="">Road Bike</Link>
                         </li>
                         <li className='nav-items-f'>
-                        <Link to="/services">Mountain Bike</Link>
+                        <Link to="">Mountain Bike</Link>
                         </li>
                         <li className='nav-items-f'>
-                        <Link to="/shops">BMX bike</Link>
+                        <Link to="">BMX bike</Link>
                         </li>
                         <li className='nav-items-f'>
-                        <Link to="/gallery">City Bike</Link>
+                        <Link to="">City Bike</Link>
                         </li>
                         <li className='nav-items-f'>
-                        <Link to="/news">Kids Bike</Link>
+                        <Link to="">Kids Bike</Link>
                         </li>   
                     </ul>
                 </div>
