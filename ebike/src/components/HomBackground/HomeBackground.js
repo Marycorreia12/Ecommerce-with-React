@@ -2,7 +2,7 @@ import React from 'react'
 import Advantages from '../Advantages/Advantages'
 import CardsSlide from '../CardsSlide/CardsSlide'
 import Sponsorship from '../../components/Sponsorships/Sponsorship'
-import './homeBackground.css'
+import styles from './HomeBackground.module.css'
 import Subscribe from '../Subscribe/Subscribe'
 import Customer from '../CustumerFeedback/Customer'
 import Hyper from '../Hyper/Hyper'
@@ -13,7 +13,7 @@ import OurNews from '../OurNews/OurNews'
 const HomeBackground = () => {
  
   return (
-    <section className='home-bg'>
+    <section className={styles.home_bg}>
         <CardsSlide/>
         <Advantages/>
         <OurProducts/>

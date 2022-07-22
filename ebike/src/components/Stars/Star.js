@@ -1,8 +1,8 @@
 import { ReactComponent as StarFull } from '../../images/star.svg';
-import './star.css'
+import styles from './Star.module.css'
 function Star(){
     return(
-        <div className="stars-container">
+      <div className={styles.container}>
         <StarFull />
         <StarFull />
         <StarFull />

@@ -1,12 +1,12 @@
-.header2{
+.wrapper{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     border-top: 1px solid var(--border-color);
-    margin-bottom: 3.125em;
+    margin-bottom: 3.125rem;
 }
 
-.header2 .iconic{
+.iconic_image{
     padding-top: 0.81em;
 }
 

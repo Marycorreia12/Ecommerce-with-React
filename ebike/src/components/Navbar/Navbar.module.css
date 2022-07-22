@@ -3,7 +3,7 @@
     gap: 1.8em;
 }
 
-.nav-items a{
+.nav_items a{
     font-family: 'Roboto Condensed';
     font-weight: 400;
     font-size: 0.875rem;
@@ -13,7 +13,7 @@
     padding-top: 3em;
 }
 
-.nav-items a:hover::before{
+.nav_items a:hover::before{
     position: absolute;
     content: '';
     width: 2rem;
@@ -27,7 +27,6 @@
 
 
 .nav:global(.active),
-
 .nav-items a:hover {
   color: var(--primary-color);
 }

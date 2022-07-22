@@ -1,23 +1,20 @@
-.header1{
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2.9em 0 1.56em 0;
 }
 
-.header1-contact{
+.content_left{
     display: flex;
     align-items: center;
     gap: 1.25em;
 }
 
-.header1-contact-link{
+.content_left_link{
     display: flex;
     align-items: center;
     gap: 0.6em;
-}
-
-.header1-contact a{
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
@@ -25,29 +22,28 @@
     color: var(--mardi-gras-color);
 }
 
-.header1-contact .icon{
+.content_left_icons{
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.header1-icons{
+.content_right{
     display: flex;
     align-items: center;
-    list-style: none;
 }
 
-.header1-icons li{
-    margin-left: 1.3em;
+.content_right li{
+    margin-left: 1.3rem;
     position: relative;
 }
 
-.header1-icons li a{
+.content_right li a{
     width: 1.3rem;
     height: 1.3rem;
     color: var(--grey-chateau-color);
 }
 
-.header1-icons li::after{
+.content_right li::after{
     content: '';
     position: absolute;
     border: 1px solid var(--border-color);
@@ -59,7 +55,7 @@
     transform: rotate(90deg);
 }
 
-.header1-icons li:last-child:after{
+.content_right li:last-child:after{
     content: none;
 }
 

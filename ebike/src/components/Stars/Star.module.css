@@ -1,10 +1,10 @@
-.stars-container {
+.container {
     width: 100px;
     display: flex;
     justify-content: space-between;
 }
 
-.stars-container svg {
+.container svg {
     width: 20px;
     height: auto;
 }

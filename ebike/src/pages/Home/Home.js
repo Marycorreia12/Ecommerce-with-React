@@ -1,5 +1,4 @@
 import React from 'react'
-import './home.css'
 import HomeSearch from '../../components/HomeSearch/HomeSearch'
 import Hero from '../../components/Hero/Hero'
 import HomeBackground from '../../components/HomBackground/HomeBackground'
