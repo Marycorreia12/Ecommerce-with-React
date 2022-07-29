@@ -1,12 +1,12 @@
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.375em;
     margin-bottom: 2.188rem;
     margin-top: 1.563rem;
 }
 
 .card{
-    flex: 1 0 375px;
     background: #FFFFFF;
     box-shadow: 0px -1px 8px rgba(80, 80, 80, 0.25);
     padding: 1.25em;

@@ -84,3 +84,9 @@ select:focus{
  .label_btn{
      visibility: hidden;
 }
+
+@media(max-width: 1024px){
+    .search_container{
+        display: none;
+    }
+}

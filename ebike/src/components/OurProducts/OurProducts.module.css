@@ -10,3 +10,22 @@
     scroll-behavior: smooth;
     overflow: hidden;
 }
+
+@media(max-width: 1024px){
+    .products_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media(max-width: 768px){
+    .products_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .products_container{
+        grid-template-columns: 1fr;
+    }
+}

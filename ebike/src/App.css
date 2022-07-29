@@ -123,12 +123,13 @@ img{
     display: flex;
   }
 
-  .slick-prev, .slick-next{
+/*   .slick-prev, .slick-next{
     border: 1px solid #7D9C37;
     border-radius: 6px;
     width: 3rem;
     height: 3rem;
     padding: 1em;
+    display: none;
 }
 
 .slick-prev::before, .slick-next:before{
@@ -136,15 +137,8 @@ img{
     font-size: 1.5rem;
     opacity: 1;
     font-family: none;
-
+display: none;
 }
-
-.slick-next{
-    right: -5rem;
-}
-
-.slick-prev{
-    left: -5rem;
-}
+ */
 
 

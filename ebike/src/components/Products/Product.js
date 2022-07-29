@@ -19,7 +19,7 @@ const Product = ({discount, background, contentRef}) => {
   return (
     <section className={styles.box_container} ref={contentRef}>
             {products.map(product => (
-            <article className={styles.box_pcontent}>
+            <article className={styles.box_content}>
               <div className={styles.image}>
                   <div className={styles.items}>
                       <span className={styles.sale} style={{background: background}}>{discount}</span>
